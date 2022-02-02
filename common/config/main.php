@@ -32,7 +32,7 @@ return [
             'class' => 'yii\caching\FileCache',
         ],
         'user' => [
-        'class'=> 'mdm\admin\models\User',
+       // 'class'=> 'mdm\admin\models\User',
         'identityClass' => 'mdm\admin\models\User',
         'loginUrl' => ['admin/user/login'],
               ],
