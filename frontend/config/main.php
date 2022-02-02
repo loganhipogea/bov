@@ -15,10 +15,10 @@ return [
         'view' => [
          'theme' => [
              'pathMap' => [
-                '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
-             ],
-         ],
-       ],
+                '@app/views' => '@vendor/hail812/yii2-adminlte3/src/views'
+                      ],
+                ],
+              ],
         'request' => [
             'csrfParam' => '_csrf-frontend',
         ],
