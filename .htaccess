@@ -4,8 +4,7 @@
 </IfModule>
  
 <IfModule mod_rewrite.c>    
-    RewriteCond %{REQUEST_URI} ^/(admin)
-    RewriteCond %{REQUEST_URI} !^/(frontend|backend)/web/(assets|css|js)/
+  
     RewriteCond %{REQUEST_URI} !index.php
     RewriteCond %{REQUEST_FILENAME} !-f [OR]
     RewriteCond %{REQUEST_FILENAME} !-d
@@ -18,3 +17,4 @@
  #   SetEnv MOD_X_SENDFILE_ENABLED 1 
  # </Files> 
 </IfModule>
+

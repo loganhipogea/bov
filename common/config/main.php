@@ -25,6 +25,16 @@ return [
                 ],
     
     'components' => [
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'enableStrictParsing' => false,
+            'rules' => [
+               
+              
+           
+            ],
+        ],
         'authManager' => [
                          'class' => 'yii\rbac\DbManager', // or use 
                     ],
